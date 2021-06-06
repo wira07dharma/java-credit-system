@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="AktivaLocation.java">
+        <attr name="class_dependency_com.dimata.qdep.entity.Entity" stringvalue="AktivaLocation"/>
+    </fileobject>
+    <fileobject name="ModulAktiva.java">
+        <attr name="class_dependency_com.dimata.qdep.entity.Entity" stringvalue="ModulAktiva"/>
+    </fileobject>
+    <fileobject name="PstAktivaLocation.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstAktivaLocation"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstAktivaLocation"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstAktivaLocation"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstAktivaLocation"/>
+    </fileobject>
+    <fileobject name="PstAssetGroup.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstAssetGroup"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstAssetGroup"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstAssetGroup"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstAssetGroup"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="PstAssetGroup"/>
+    </fileobject>
+    <fileobject name="PstBackUpService.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstBackUpService"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstBackUpService"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstBackUpService"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstBackUpService"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="PstBackUpService"/>
+    </fileobject>
+    <fileobject name="PstModulAktiva.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstModulAktiva"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstModulAktiva"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstModulAktiva"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstModulAktiva"/>
+    </fileobject>
+    <fileobject name="PstPeriodProperty.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstPeriodProperty"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstPeriodProperty"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstPeriodProperty"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstPeriodProperty"/>
+    </fileobject>
+    <fileobject name="PstPerkiraan.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstPerkiraan"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstPerkiraan"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstPerkiraan"/>
+        <attr name="class_dependency_com.dimata.interfaces.chartofaccount.I_ChartOfAccountGroup" stringvalue="PstPerkiraan"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstPerkiraan"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="PstPerkiraan"/>
+    </fileobject>
+</attributes>

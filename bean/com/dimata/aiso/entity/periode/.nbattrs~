@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="ActivityPeriod.java">
+        <attr name="class_dependency_com.dimata.qdep.entity.Entity" stringvalue="ActivityPeriod"/>
+    </fileobject>
+    <fileobject name="Periode.java">
+        <attr name="class_dependency_com.dimata.qdep.entity.Entity" stringvalue="Periode"/>
+    </fileobject>
+    <fileobject name="PstActivityPeriod.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstActivityPeriod"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstActivityPeriod"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstActivityPeriod"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstActivityPeriod"/>
+    </fileobject>
+    <fileobject name="PstPeriode.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstPeriode"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstPeriode"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstPeriode"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstPeriode"/>
+    </fileobject>
+    <fileobject name="PstSaldoAkhirPeriode.java">
+        <attr name="class_dependency_com.dimata.qdep.db.DBHandler" stringvalue="PstSaldoAkhirPeriode"/>
+        <attr name="class_dependency_com.dimata.qdep.db.I_DBInterface" stringvalue="PstSaldoAkhirPeriode"/>
+        <attr name="class_dependency_com.dimata.qdep.db.I_DBType" stringvalue="PstSaldoAkhirPeriode"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstSaldoAkhirPeriode"/>
+    </fileobject>
+</attributes>

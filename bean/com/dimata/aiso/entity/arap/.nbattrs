@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="PstArApItem.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstArApItem"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstArApItem"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstArApItem"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstArApItem"/>
+    </fileobject>
+</attributes>

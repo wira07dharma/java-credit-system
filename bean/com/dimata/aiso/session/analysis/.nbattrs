@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="EconomicRentabilityPdf.java">
+        <attr name="class_dependency_javax.servlet.http.HttpServlet" stringvalue="EconomicRentabilityPdf"/>
+    </fileobject>
+    <fileobject name="CashRatioPdf.java">
+        <attr name="class_dependency_javax.servlet.http.HttpServlet" stringvalue="CashRatioPdf"/>
+    </fileobject>
+    <fileobject name="CurrentRatioPdf.java">
+        <attr name="class_dependency_javax.servlet.http.HttpServlet" stringvalue="CurrentRatioPdf"/>
+    </fileobject>
+    <fileobject name="EquityRentabilityPdf.java">
+        <attr name="class_dependency_javax.servlet.http.HttpServlet" stringvalue="EquityRentabilityPdf"/>
+    </fileobject>
+    <fileobject name="SolvabilitasPdf.java">
+        <attr name="class_dependency_javax.servlet.http.HttpServlet" stringvalue="SolvabilitasPdf"/>
+    </fileobject>
+</attributes>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="PstServiceConfiguration.java">
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="PstServiceConfiguration"/>
+        <attr name="class_dependency_com.dimata.common.db.I_DBType" stringvalue="PstServiceConfiguration"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstServiceConfiguration"/>
+        <attr name="class_dependency_com.dimata.common.db.I_DBInterface" stringvalue="PstServiceConfiguration"/>
+        <attr name="class_dependency_com.dimata.common.db.DBHandler" stringvalue="PstServiceConfiguration"/>
+    </fileobject>
+    <fileobject name="ServiceConfiguration.java">
+        <attr name="class_dependency_com.dimata.qdep.entity.Entity" stringvalue="ServiceConfiguration"/>
+    </fileobject>
+</attributes>

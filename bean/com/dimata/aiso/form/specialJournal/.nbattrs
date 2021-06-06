@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CtrlSpecialJournalDetail.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlSpecialJournalDetail"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlSpecialJournalDetail"/>
+    </fileobject>
+    <fileobject name="CtrlSpecialJournalDetailAssignt.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlSpecialJournalDetailAssignt"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlSpecialJournalDetailAssignt"/>
+    </fileobject>
+    <fileobject name="CtrlSpecialJournalMain.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlSpecialJournalMain"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlSpecialJournalMain"/>
+    </fileobject>
+    <fileobject name="FrmSpecialJournalDetail.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmSpecialJournalDetail"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmSpecialJournalDetail"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmSpecialJournalDetail"/>
+    </fileobject>
+    <fileobject name="FrmSpecialJournalDetailAssignt.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmSpecialJournalDetailAssignt"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmSpecialJournalDetailAssignt"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmSpecialJournalDetailAssignt"/>
+    </fileobject>
+    <fileobject name="FrmSpecialJournalMain.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmSpecialJournalMain"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmSpecialJournalMain"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmSpecialJournalMain"/>
+    </fileobject>
+</attributes>

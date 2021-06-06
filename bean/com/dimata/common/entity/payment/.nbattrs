@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="PstStandartRate.java">
+        <attr name="class_dependency_com.dimata.common.db.DBHandler" stringvalue="PstStandartRate"/>
+        <attr name="class_dependency_com.dimata.common.db.I_DBInterface" stringvalue="PstStandartRate"/>
+        <attr name="class_dependency_com.dimata.common.db.I_DBType" stringvalue="PstStandartRate"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstStandartRate"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="PstStandartRate"/>
+    </fileobject>
+</attributes>

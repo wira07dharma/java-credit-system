@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CtrlIjConfiguration.java">
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlIjConfiguration"/>
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlIjConfiguration"/>
+    </fileobject>
+    <fileobject name="FrmIjConfiguration.java">
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmIjConfiguration"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmIjConfiguration"/>
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmIjConfiguration"/>
+    </fileobject>
+</attributes>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="PstCosting.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstCosting"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstCosting"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstCosting"/>
+        <attr name="class_dependency_com.dimata.interfaces.journal.I_JournalType" stringvalue="PstCosting"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstCosting"/>
+    </fileobject>
+    <fileobject name="PstCostingAdjustment.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstCostingAdjustment"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstCostingAdjustment"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstCostingAdjustment"/>
+        <attr name="class_dependency_com.dimata.interfaces.journal.I_JournalType" stringvalue="PstCostingAdjustment"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstCostingAdjustment"/>
+    </fileobject>
+</attributes>

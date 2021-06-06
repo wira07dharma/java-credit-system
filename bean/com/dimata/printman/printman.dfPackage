@@ -1,0 +1,95 @@
+package idqq9udhoakl67dholr8fq;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#com.dimata.printman.DSJ_PrintObj:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.PrinterDriverLoader:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.I_DSJ_PrinterDriver:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.DSJ_PrnDrv_LX300:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.PrnConfig:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.OpenPorts:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.TestPrn:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.DSJ_PrinterService:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.DSJ_PrinterXML:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}/**
+@__ref <oiref:java#Class#com.dimata.printman.Column:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:BeanProperty#<oiref:java#Member#com.dimata.printman.PrnConfig#getPathConfigFile#(##)#:oiref>=701,117,0,0,1:oigroup>
+<oigroup:<oiref:java#Class#com.dimata.printman.PrnConfig:oiref>=1020,63,219,204,1:oigroup>
+<oigroup:<oiref:java#Class#com.dimata.printman.TestPrn:oiref>=662,104,203,565,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#com.dimata.printman.DSJ_PrinterService#lnkPrinterDriverLoader:oiref>=664,557,570,557:oigroup>
+<oigroup:<oiref:java#Class#com.dimata.printman.DSJ_PrinterService:oiref>=664,185,219,431,1:oigroup>
+<oigroup:<oiref:java#Member#com.dimata.printman.PrnConfig#$$constructor$$#(##)#:oiref>=1147,119,0,0,1:oigroup>
+<oigroup:<oiref:java#Class#com.dimata.printman.PrinterDriverLoader:oiref>=351,517,219,374,1:oigroup>
+<oigroup:<oiref:java#Extends#com.dimata.printman.PrinterDriverLoader#com.dimata.printman.DSJ_PrinterService:oiref>=96,187,96,84:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#com.dimata.printman.PrinterDriverLoader#i_PrnDriver:oiref>=351,575,221,575:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#com.dimata.printman.PrinterDriverLoader#prnObj:oiref>=570,527,415,527:oigroup>
+<oigroup:<oiref:java#Implements#com.dimata.printman.PrinterDriverLoader#com.dimata.printman.I_DSJ_PrinterDriver:oiref>=157,199,307,199:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#com.dimata.printman.TestPrn#obj:oiref>=662,139,404,139:oigroup>
+<oigroup:<oiref:java#Class#com.dimata.printman.DSJ_PrintObj:oiref>=196,10,219,641,1:oigroup>
+<oigroup:<oiref:java#Class#com.dimata.printman.DSJ_PrnDrv_LX300:oiref>=10,894,219,347,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#com.dimata.printman.PrinterDriverLoader#prnDriver:oiref>=337,476,242,476:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#com.dimata.printman.DSJ_PrinterService#lnkDSJ_PrintObj:oiref>=664,356,415,356:oigroup>
+<oigroup:<oiref:java#Implements#com.dimata.printman.DSJ_PrnDrv_LX300#com.dimata.printman.I_DSJ_PrinterDriver:oiref>=90,894,90,825:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#com.dimata.printman.PrinterDriverLoader#lnkI_DSJ_PrinterDriver:oiref>=351,633,221,633:oigroup>
+<oigroup:<oiref:java#Class#com.dimata.printman.I_DSJ_PrinterDriver:oiref>=18,517,203,308,1:oigroup>
+<oigroup:<oiref:java#Class#com.dimata.printman.OpenPorts:oiref>=429,157,219,223,1:oigroup>
+<oigroup:<oiref:java#Extends#com.dimata.printman.DSJ_PrnDrv_LX300#com.dimata.printman.OpenPorts:oiref>=162,894,538,380:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#com.dimata.printman.DSJ_PrinterService#PrnSvc:oiref>=840,616,840,669,936,669,936,573,883,573:oigroup>
+
+
+*/
+class __positions {
+}

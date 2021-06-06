@@ -1,0 +1,446 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--package aiso-->
+
+
+
+
+
+
+<!--package java-->
+
+
+
+
+
+<!--package qdep-->
+
+
+
+<!-- use harisma class -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JSP Block -->
+
+
+
+<!-- End of JSP Block -->
+<html><!-- #BeginTemplate "/Templates/main-menu-left-frames.dwt" --><!-- DW6 -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Accounting Information System Online</title>
+<script language="JavaScript">
+
+    
+function cmdCopyPrevBudget(valueX, object){
+     object.value = valueX;
+    }
+
+function cmdCopyAllPrevBudget(){
+    alert("hi");
+    alert(document.frmaccountchart.C_504404400388195848);
+  document.frmaccountchart.C_504404400388195848.value=12345.0;
+  alert(document.frmaccountchart.C_504404400388195848.value); 
+    alert("ho");
+    document.frmaccountchart.C_504404400388099098.value=0;alert("a");document.frmaccountchart.C_504404400388170067.value=0;alert("b");
+    
+  
+  document.frmaccountchart.C_504404401880621166.value=0.0;
+  document.frmaccountchart.C_504404401880661489.value=200000.0;
+  document.frmaccountchart.C_504404401880696442.value=0.0;
+  document.frmaccountchart.C_504404401880744594.value=0.0;
+  document.frmaccountchart.C_504404401883895676.value=0.0;
+  document.frmaccountchart.C_504404401883927659.value=0.0;
+  document.frmaccountchart.C_504404401883962793.value=0.0;
+  document.frmaccountchart.C_504404402930540874.value=0.0;
+  document.frmaccountchart.C_504404402930590735.value=0.0;
+  document.frmaccountchart.C_504404402930625928.value=0.0;
+  document.frmaccountchart.C_504404402930777028.value=0.0;
+  document.frmaccountchart.C_504404402930919145.value=0.0;
+  document.frmaccountchart.C_504404401883994580.value=0.0;
+  document.frmaccountchart.C_504404406377702428.value=0.0;
+  alert("ha");
+    }
+    
+function addNew(){
+	document.frmaccountchart.accountchart_id.value="0";
+	document.frmaccountchart.command.value="2";
+	document.frmaccountchart.departmentOid.value = "0";
+	document.frmaccountchart.companyId.value = "0";
+	//document.frmaccountchart..value = "0";
+	document.frmaccountchart.generalAccOid.value = "0";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+function cmdUpload(){
+	document.frmaccountchart.command.value="11";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+function cmdSave()
+{ 		document.frmaccountchart.command.value="4";
+		document.frmaccountchart.action = "buss_ctr_budget.jsp#down";
+		document.frmaccountchart.submit();		
+
+}
+
+function cmdAsk(oid){
+	document.frmaccountchart.accountchart_id.value=oid;
+	document.frmaccountchart.command.value="71";
+	document.frmaccountchart.action="buss_ctr_budget.jsp#down";
+	document.frmaccountchart.submit();
+}
+
+function cmdDelete(oid){
+	document.frmaccountchart.accountchart_id.value=oid;
+	document.frmaccountchart.command.value="6";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+
+
+function cmdListAccount()
+{
+	var linkPage = "account_list.jsp?accountchart_group=10&str_header=LIST COST OF SALES";
+	window.open(linkPage,null,"height=480,width=640,status=no,toolbar=no,menubar=yes,location=no,scrollbars=yes");
+}
+
+
+function cmdCancel(){
+	document.frmaccountchart.command.value="3";
+	document.frmaccountchart.action="buss_ctr_budget.jsp#down";
+	document.frmaccountchart.submit();
+}
+
+function cmdEdit(oid){
+	document.frmaccountchart.accountchart_id.value=oid;
+	document.frmaccountchart.departmentOid.value = "0";
+	document.frmaccountchart.generalAccOid.value = "0";
+	document.frmaccountchart.command.value="3";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+function first(){
+	document.frmaccountchart.list_command.value="23";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+function prev(){
+	document.frmaccountchart.list_command.value="21";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+function next(){
+	document.frmaccountchart.list_command.value="22";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+function last(){
+	document.frmaccountchart.list_command.value="24";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+function cmdBackList(){
+	document.frmaccountchart.command.value="0";
+	document.frmaccountchart.list_command.value="1";
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+function cmdChange(){
+	if(document.frmaccountchart.TANDA_DEBET_KREDIT.value=="1"){
+		document.frmaccountchart.KREDIT.value=" +";
+	} else {
+		document.frmaccountchart.KREDIT.value=" -";
+	}
+}
+
+function cmdItemData(tipe){
+	document.frmaccountchart.command.value="0";	
+	document.frmaccountchart.list_command.value="1";
+	document.frmaccountchart.accountchart_group.value=tipe;
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+function cmdClasification(){
+	var classType = document.frmaccountchart.ACCOUNT_GROUP.value;	
+	document.frmaccountchart.command.value="0";	
+	document.frmaccountchart.list_command.value="1";
+	document.frmaccountchart.accountchart_group.value=classType;
+	document.frmaccountchart.action="buss_ctr_budget.jsp";
+	document.frmaccountchart.submit();
+}
+
+function cmdChangeLevel(){
+	var level = document.frmaccountchart.LEVEL.value;
+	if(level==1){
+	   document.frmaccountchart.POSTABLE.options[1].selected=true;
+	}
+ 
+}
+
+function cmdEditBudget() 
+{
+    document.frmaccountchart.action = "edit_budget.jsp";
+    document.frmaccountchart.submit();
+}
+
+function chgExpenseType()
+{
+	var expType = document.frmaccountchart.EXPENSE_TYPE.value;
+	if(expType == 0){
+		document.getElementById("fixedvar").style.display="";
+	}else{
+		document.getElementById("fixedvar").style.display="none";
+	}
+}
+</script>
+<!-- #EndEditable -->
+<!-- #BeginEditable "headerscript" --><!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../style/main.css" type="text/css">
+<link rel="StyleSheet" href="../../dtree/dtree.css" type="text/css" />
+	<script type="text/javascript" src="../dtree/dtree.js"></script>
+</head> 
+
+
+<body class="bodystyle" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">    
+<table width="100%" border="0" cellspacing="1" cellpadding="1" height="100%">
+  <tr> 
+    <td width="91%" valign="top" align="left" bgcolor="#99CCCC"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+        <tr> 
+          <td height="20" class="contenttitle" >&nbsp;<!-- #BeginEditable "contenttitle" -->
+		  
+		  <b>Chart of Account : </b><font color="#CC3300">COST OF SALES</font>
+		  <!-- #EndEditable --></td>
+        </tr>
+
+        <tr> 
+          <td valign="top"><!-- #BeginEditable "content" --> 
+            <form name="frmaccountchart" method="post" action="">
+              <input type="hidden" name="accountchart_group" value="10">
+              <input type="hidden" name="accountchart_type" value="10">			  
+              <input type="hidden" name="command" value="0">
+              <input type="hidden" name="accountchart_id" value="0">
+              <input type="hidden" name="vectSize" value="17">
+              <input type="hidden" name="start" value="0">
+              <input type="hidden" name="list_command" value="1">
+
+              <input type="hidden" name="departmentOid" value="0">
+			  <input type="hidden" name="companyId" value="0">
+              <input type="hidden" name="generalAccOid" value="0">
+              <table width="100%" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td colspan="2">&nbsp; 
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" cellspacing="0" cellpadding="0">
+
+                <tr>
+                  <td width="11%" height="23">Period</td>
+                  <td height="23" width="2%">
+                    <div align="center">:</div></td>
+                  <td height="23" width="1%">
+                    <select name="period_id"  class="">
+	<option value="20090801"selected>August 2009</option>
+
+	<option value="20090701">July 2009</option>
+</select>
+
+                  </td> 
+                </tr>
+                <tr>
+                  <td width="11%" height="23">Business Center</td>
+                  <td height="23" width="2%">
+                    <!-- <div align="center">:</div></td> -->
+
+                  <td height="23" width="87%">
+                      <select name="bussCenterId" >
+	<option value="504404409778786271"selected>AKARA 1</option>
+	<option value="504404409779535189">AKARA 2</option>
+	<option value="504404409777831013">AKARA 3</option>
+	<option value="504404409779069063">AKARA 4</option>
+	<option value="504404401789177014">AKARA 5</option>
+
+	<option value="504404409779423649">AKARA 6</option>
+	<option value="504404409779713918">AKARA 7</option>
+	<option value="504404401789222273">AKARA 8</option>
+	<option value="504404401789280185">AKARA 9</option>
+	<option value="504404409778408066">ALUMBERA 2</option>
+	<option value="504404409778595971">ALUMBERA 3</option>
+
+	<option value="504404401620475910">ALUMBRERA 1</option>
+	<option value="504404401788945014">ALUMBRERA 14</option>
+	<option value="504404401788971242">ALUMBRERA 15</option>
+	<option value="504404401620489658">ALUMBRERA 4</option>
+	<option value="504404401788781136">ALUMBRERA 5</option>
+	<option value="504404409780005090">SARSANA 1</option>
+
+	<option value="504404405592121812">SARSANA 2</option>
+	<option value="504404410898673257">SARSANA 3</option>
+</select>
+                    </td>
+                         
+                </tr>
+
+                <tr> 
+                  <td width="11%" height="23"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Group Account :</font></td>
+                  <td height="23" width="2%">
+
+                    <!-- <div align="center">:</div></td> -->
+                  <td colspan="2">
+                  &nbsp;<select name="ACCOUNT_GROUP" >
+	<option value="" selected > - SELECT -</option>
+	<option value="3">Liquid Assets</option>
+	<option value="4">Fixed Assets</option>
+	<option value="5">Other Assets</option>
+
+	<option value="6">Current Liabilities</option>
+	<option value="7">Long Term Liabilities</option>
+	<option value="8">Equity</option>
+	<option value="9">Revenue</option>
+	<option value="10"selected>Cost Of Sales</option>
+	<option value="11">Expense</option>
+
+	<option value="12">Other Revenue</option>
+	<option value="13">Other Expense</option>
+</select>
+
+
+                  </td>
+                </tr>
+                <tr>
+                  <td width="11%" height="23"></td>
+
+                  <td height="23" width="2%">&nbsp;</td>
+                    <td height="23" width="1%"> <input type="button" value="List Budget" name="list" onClick="javascript:cmdClasification();"/></td>
+                </tr>
+                
+                
+              </table>	
+              
+              <table width="100%" cellpadding="0" cellspacing="0" class="listgenactivity">
+                <tr> 
+                  <td colspan="2"> 
+				    <table width="100%"  class="listarea"> <tr><td><div class="listgentitle"></div></td></tr><tr><td><table width="100%" border="0" class="listgen" cellspacing="1"><tr><td width="15%" class="listgentitle"><div align="center">Code</div></td><td width="48%" class="listgentitle"><div align="center">Name</div></td><td width="7%" class="listgentitle"><div align="center">Level</div></td><td width="10%" class="listgentitle"><div align="center">Status</div></td><td width="10%" class="listgentitle"><div align="center">Prev. Budget</div></td><td width="10%" class="listgentitle"><div align="center"> </div></td><td width="10%" class="listgentitle"><div align="center">Budget</div></td></tr><tr><td nowrap class="listgensell" ><div align="left" ><a href="javascript:cmdEdit('504404400388099098')">5-0000</a></div></td><td nowrap class="listgensell" ><div align="left" >COST OF SALES</div></td><td nowrap class="listgensell" ><div align="center" >1</div></td><td nowrap class="listgensell" ><div align="left" >Header</div></td><td nowrap class="listgensell" ><div align="left" ></div></td><td nowrap class="listgensell" ><div align="left" ></div></td><td nowrap class="listgensell" ><div align="left" ></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" >&nbsp;&nbsp;<a href="javascript:cmdEdit('504404400388170067')">5-1000</a></div></td><td nowrap class="listgensellOdd" ><div align="left" >Cost Of Sales</div></td><td nowrap class="listgensellOdd" ><div align="center" >2</div></td><td nowrap class="listgensellOdd" ><div align="left" >Header</div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td></tr><tr><td nowrap class="listgensell" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404400388195848')">5-1100</a></div></td><td nowrap class="listgensell" ><div align="left" >Service Charge</div></td><td nowrap class="listgensell" ><div align="center" >3</div></td><td nowrap class="listgensell" ><div align="left" >Postable</div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" readonly name="P_504404400388195848" value="12345.0"></div></td><td nowrap class="listgensell" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(12345.0,document.frmaccountchart.C_504404400388195848)"/> </div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" name="C_504404400388195848" value="0.0"></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404401880621166')">5-1200</a></div></td><td nowrap class="listgensellOdd" ><div align="left" >Loss/Breakage</div></td><td nowrap class="listgensellOdd" ><div align="center" >3</div></td><td nowrap class="listgensellOdd" ><div align="left" >Postable</div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" readonly name="P_504404401880621166" value="0.0"></div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404401880621166)"/> </div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" name="C_504404401880621166" value="0.0"></div></td></tr><tr><td nowrap class="listgensell" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404401880661489')">5-1300</a></div></td><td nowrap class="listgensell" ><div align="left" >Training</div></td><td nowrap class="listgensell" ><div align="center" >3</div></td><td nowrap class="listgensell" ><div align="left" >Postable</div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" readonly name="P_504404401880661489" value="200000.0"></div></td><td nowrap class="listgensell" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(200000.0,document.frmaccountchart.C_504404401880661489)"/> </div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" name="C_504404401880661489" value="0.0"></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404401880696442')">5-1400</a></div></td><td nowrap class="listgensellOdd" ><div align="left" >Agency Commission</div></td><td nowrap class="listgensellOdd" ><div align="center" >3</div></td><td nowrap class="listgensellOdd" ><div align="left" >Postable</div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" readonly name="P_504404401880696442" value="0.0"></div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404401880696442)"/> </div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" name="C_504404401880696442" value="0.0"></div></td></tr><tr><td nowrap class="listgensell" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404401880744594')">5-1500</a></div></td><td nowrap class="listgensell" ><div align="left" >Marketing Commission</div></td><td nowrap class="listgensell" ><div align="center" >3</div></td><td nowrap class="listgensell" ><div align="left" >Postable</div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" readonly name="P_504404401880744594" value="0.0"></div></td><td nowrap class="listgensell" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404401880744594)"/> </div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" name="C_504404401880744594" value="0.0"></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" >&nbsp;&nbsp;<a href="javascript:cmdEdit('504404401883895676')">5-9000</a></div></td><td nowrap class="listgensellOdd" ><div align="left" >Cost of Good Sold</div></td><td nowrap class="listgensellOdd" ><div align="center" >2</div></td><td nowrap class="listgensellOdd" ><div align="left" >Header</div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td></tr><tr><td nowrap class="listgensell" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404401883927659')">5-9100</a></div></td><td nowrap class="listgensell" ><div align="left" >CGS Food</div></td><td nowrap class="listgensell" ><div align="center" >3</div></td><td nowrap class="listgensell" ><div align="left" >Postable</div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" readonly name="P_504404401883927659" value="0.0"></div></td><td nowrap class="listgensell" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404401883927659)"/> </div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" name="C_504404401883927659" value="0.0"></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404401883962793')">5-9200</a></div></td><td nowrap class="listgensellOdd" ><div align="left" >CGS Beverage</div></td><td nowrap class="listgensellOdd" ><div align="center" >3</div></td><td nowrap class="listgensellOdd" ><div align="left" >Header</div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td></tr><tr><td nowrap class="listgensell" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404402930540874')">5-9201</a></div></td><td nowrap class="listgensell" ><div align="left" >CGS Spirit</div></td><td nowrap class="listgensell" ><div align="center" >4</div></td><td nowrap class="listgensell" ><div align="left" >Postable</div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" readonly name="P_504404402930540874" value="0.0"></div></td><td nowrap class="listgensell" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404402930540874)"/> </div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" name="C_504404402930540874" value="0.0"></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404402930590735')">5-9202</a></div></td><td nowrap class="listgensellOdd" ><div align="left" >CGS Wine</div></td><td nowrap class="listgensellOdd" ><div align="center" >4</div></td><td nowrap class="listgensellOdd" ><div align="left" >Postable</div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" readonly name="P_504404402930590735" value="0.0"></div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404402930590735)"/> </div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" name="C_504404402930590735" value="0.0"></div></td></tr><tr><td nowrap class="listgensell" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404402930625928')">5-9203</a></div></td><td nowrap class="listgensell" ><div align="left" >CGS Beer</div></td><td nowrap class="listgensell" ><div align="center" >4</div></td><td nowrap class="listgensell" ><div align="left" >Postable</div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" readonly name="P_504404402930625928" value="0.0"></div></td><td nowrap class="listgensell" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404402930625928)"/> </div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" name="C_504404402930625928" value="0.0"></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404402930777028')">5-9204</a></div></td><td nowrap class="listgensellOdd" ><div align="left" >CGS Soft Drink</div></td><td nowrap class="listgensellOdd" ><div align="center" >4</div></td><td nowrap class="listgensellOdd" ><div align="left" >Postable</div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" readonly name="P_504404402930777028" value="0.0"></div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404402930777028)"/> </div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" name="C_504404402930777028" value="0.0"></div></td></tr><tr><td nowrap class="listgensell" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404402930919145')">5-9205</a></div></td><td nowrap class="listgensell" ><div align="left" >CGS Mineral Water</div></td><td nowrap class="listgensell" ><div align="center" >4</div></td><td nowrap class="listgensell" ><div align="left" >Postable</div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" readonly name="P_504404402930919145" value="0.0"></div></td><td nowrap class="listgensell" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404402930919145)"/> </div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" name="C_504404402930919145" value="0.0"></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404401883994580')">5-9300</a></div></td><td nowrap class="listgensellOdd" ><div align="left" >CGS Honeymoon Package</div></td><td nowrap class="listgensellOdd" ><div align="center" >3</div></td><td nowrap class="listgensellOdd" ><div align="left" >Postable</div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" readonly name="P_504404401883994580" value="0.0"></div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404401883994580)"/> </div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="text" name="C_504404401883994580" value="0.0"></div></td></tr><tr><td nowrap class="listgensell" ><div align="left" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:cmdEdit('504404406377702428')">5-9400</a></div></td><td nowrap class="listgensell" ><div align="left" >CGS - Transfer</div></td><td nowrap class="listgensell" ><div align="center" >3</div></td><td nowrap class="listgensell" ><div align="left" >Postable</div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" readonly name="P_504404406377702428" value="0.0"></div></td><td nowrap class="listgensell" ><div align="left" ><input type="button" value=">" onClick="javascript:cmdCopyPrevBudget(0.0,document.frmaccountchart.C_504404406377702428)"/> </div></td><td nowrap class="listgensell" ><div align="left" ><input type="text" name="C_504404406377702428" value="0.0"></div></td></tr><tr><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="center" ></div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td><td nowrap class="listgensellOdd" ><div align="left" >Copy All </div></td><td nowrap class="listgensellOdd" ><div align="left" ><input type="button" value=">>>" onClick="cmdCopyAllPrevBudget()"/> </div></td><td nowrap class="listgensellOdd" ><div align="left" ></div></td></tr></table></td></tr></table>
+
+                     
+                    
+                    <table width="100%">
+                      <tr> 
+                          <td>&nbsp;</td>
+                          <td><input type="button" value="Save Budget" name="savebudget" onClick="javascript:cmdSave()"/></td>
+                      </tr>
+                    </table>
+                    
+                    </td>
+                </tr>
+              </table>
+
+            </form>
+            <!-- #EndEditable --></td>
+        </tr>
+        <tr> 
+          <td height="100%"> 
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="20" class="footer">
+      <script>
+var myWindow = null;
+function closeWindow(){
+   if(myWindow != null){
+		myWindow.close();
+	}
+}
+</script>
+<table width="100%" border="0">
+  <tr>
+    <td class="footer">Copyrights PT.Dimata Sora Jayate : <a url="http://www.dimata.com" > www.dimata.com</a> &nbsp;&nbsp;&nbsp;&nbsp;Processing in 485 milliseconds             
+	  
+	</td>
+
+  </tr>
+</table>
+ 
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>
+<!-- endif of "has access" condition -->

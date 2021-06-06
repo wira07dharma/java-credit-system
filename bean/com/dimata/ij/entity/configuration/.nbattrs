@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="PstIjConfiguration.java">
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="PstIjConfiguration"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstIjConfiguration"/>
+        <attr name="class_dependency_com.dimata.ij.I_IJGeneral" stringvalue="PstIjConfiguration"/>
+        <attr name="class_dependency_com.dimata.ij.db.DBHandler" stringvalue="PstIjConfiguration"/>
+        <attr name="class_dependency_com.dimata.ij.db.I_DBType" stringvalue="PstIjConfiguration"/>
+        <attr name="class_dependency_com.dimata.ij.db.I_DBInterface" stringvalue="PstIjConfiguration"/>
+    </fileobject>
+</attributes>

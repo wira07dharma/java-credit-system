@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CtrlCosting.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlCosting"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlCosting"/>
+    </fileobject>
+    <fileobject name="CtrlCostingAdj.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlCostingAdj"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlCostingAdj"/>
+    </fileobject>
+    <fileobject name="FrmCosting.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmCosting"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmCosting"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmCosting"/>
+    </fileobject>
+    <fileobject name="FrmCostingAdjustment.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmCostingAdjustment"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmCostingAdjustment"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmCostingAdjustment"/>
+    </fileobject>
+</attributes>

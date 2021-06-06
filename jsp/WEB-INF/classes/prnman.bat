@@ -1,0 +1,1 @@
+C:\j2sdk1.4.2\bin\java -classpath c:\javaclass\jdom.jar;c:\javaclass\xml.jar;c:\javaclass\postgresql.jar;c:\javaclass\xerces.jar; com.dimata.printman.PrintManSvc %1

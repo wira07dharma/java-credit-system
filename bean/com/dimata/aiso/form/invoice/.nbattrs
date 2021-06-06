@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CtrlInvoiceAdjDetail.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlInvoiceAdjDetail"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlInvoiceAdjDetail"/>
+    </fileobject>
+    <fileobject name="CtrlInvoiceAdjMain.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlInvoiceAdjMain"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlInvoiceAdjMain"/>
+    </fileobject>
+    <fileobject name="CtrlInvoiceDetail.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlInvoiceDetail"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlInvoiceDetail"/>
+    </fileobject>
+    <fileobject name="CtrlInvoiceMain.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlInvoiceMain"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlInvoiceMain"/>
+    </fileobject>
+    <fileobject name="CtrlPaymentTerm.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlPaymentTerm"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlPaymentTerm"/>
+    </fileobject>
+    <fileobject name="FrmInvoiceAdjDetail.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmInvoiceAdjDetail"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmInvoiceAdjDetail"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmInvoiceAdjDetail"/>
+    </fileobject>
+    <fileobject name="FrmInvoiceAdjMain.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmInvoiceAdjMain"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmInvoiceAdjMain"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmInvoiceAdjMain"/>
+    </fileobject>
+    <fileobject name="FrmInvoiceDetail.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmInvoiceDetail"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmInvoiceDetail"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmInvoiceDetail"/>
+    </fileobject>
+    <fileobject name="FrmInvoiceMain.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmInvoiceMain"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmInvoiceMain"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmInvoiceMain"/>
+    </fileobject>
+    <fileobject name="FrmPaymentTerm.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmPaymentTerm"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmPaymentTerm"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmPaymentTerm"/>
+    </fileobject>
+</attributes>

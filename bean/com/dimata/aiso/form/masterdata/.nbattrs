@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CtrlAccountLink.java">
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlAccountLink"/>
+    </fileobject>
+    <fileobject name="CtrlActivity.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlActivity"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlActivity"/>
+    </fileobject>
+    <fileobject name="CtrlActivityAccountLink.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlActivityAccountLink"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlActivityAccountLink"/>
+    </fileobject>
+    <fileobject name="CtrlActivityDonorComponentLink.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlActivityDonorComponentLink"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlActivityDonorComponentLink"/>
+    </fileobject>
+    <fileobject name="CtrlActivityPeriodLink.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlActivityPeriodLink"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlActivityPeriodLink"/>
+    </fileobject>
+    <fileobject name="CtrlAktivaGroup.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlAktivaGroup"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlAktivaGroup"/>
+    </fileobject>
+    <fileobject name="CtrlAktivaLocation.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlAktivaLocation"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlAktivaLocation"/>
+    </fileobject>
+    <fileobject name="CtrlAssetGroup.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlAssetGroup"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlAssetGroup"/>
+    </fileobject>
+    <fileobject name="CtrlBackUpService.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlBackUpService"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlBackUpService"/>
+    </fileobject>
+    <fileobject name="CtrlDonorComponent.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlDonorComponent"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlDonorComponent"/>
+    </fileobject>
+    <fileobject name="CtrlModulAktiva.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlModulAktiva"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlModulAktiva"/>
+    </fileobject>
+    <fileobject name="CtrlPerkiraan.java">
+        <attr name="class_dependency_com.dimata.qdep.form.Control" stringvalue="CtrlPerkiraan"/>
+        <attr name="class_dependency_com.dimata.util.lang.I_Language" stringvalue="CtrlPerkiraan"/>
+    </fileobject>
+    <fileobject name="FrmActivity.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmActivity"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmActivity"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmActivity"/>
+    </fileobject>
+    <fileobject name="FrmActivityAccountLink.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmActivityAccountLink"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmActivityAccountLink"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmActivityAccountLink"/>
+    </fileobject>
+    <fileobject name="FrmActivityPeriodLink.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmActivityPeriodLink"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmActivityPeriodLink"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmActivityPeriodLink"/>
+    </fileobject>
+    <fileobject name="FrmAktivaLocation.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmAktivaLocation"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmAktivaLocation"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmAktivaLocation"/>
+    </fileobject>
+    <fileobject name="FrmDonorComponent.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmDonorComponent"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmDonorComponent"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmDonorComponent"/>
+    </fileobject>
+    <fileobject name="FrmModulAktiva.java">
+        <attr name="class_dependency_com.dimata.qdep.form.FRMHandler" stringvalue="FrmModulAktiva"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMInterface" stringvalue="FrmModulAktiva"/>
+        <attr name="class_dependency_com.dimata.qdep.form.I_FRMType" stringvalue="FrmModulAktiva"/>
+    </fileobject>
+</attributes>

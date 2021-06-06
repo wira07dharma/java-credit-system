@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app
+     PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+
+
+  <!-- ==================== Default Session Configuration ================= -->
+  <!-- You can set the default session timeout (in minutes) for all newly   -->
+  <!-- created sessions by modifying the value below.                       -->
+
+    <session-config>
+        <session-timeout>1</session-timeout>
+    </session-config>
+
+<servlet>
+    <servlet-name>DisplayChart</servlet-name>
+    <servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+     <servlet-name>DisplayChart</servlet-name>
+      <url-pattern>/servlet/DisplayChart</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
+

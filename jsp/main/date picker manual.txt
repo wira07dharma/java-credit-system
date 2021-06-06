@@ -1,0 +1,77 @@
+How to use java script date picker:
+1.Tambahkan text box seperti berikut:
+  <input onClick="ds_sh(this);" name="<%=FrmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_TO_DATE]%>" readonly="readonly" style="cursor: text" value="<%=Formater.formatDate(srcPurchaseOrder.getDateTo()==null ? new Date() : srcPurchaseOrder.getDateTo(), "yyyy-MM-dd")%>"/>
+
+
+2.karena FrmHandler menerima data berupa data pecahan tgl, bln, tahun. maka tambahkan hidden text untuk menanmpung hasil parsing tanggal dari text box tannggal(diatas)
+  Contoh:
+  <input type="hidden" name="<%=FrmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_TO_DATE] + "_mn"%>">
+  <input type="hidden" name="<%=FrmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_TO_DATE] + "_dy"%>">
+  <input type="hidden" name="<%=FrmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_TO_DATE] + "_yr"%>">	
+
+
+3.Buatkan function java script unutk memparsing tanggal seperti berikut:
+
+  function getThn()
+  {
+	var date1 = ""+document.frmsrcpurchaserequest.<%=frmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_FROM_DATE]%>.value;
+	//alert ("Date = "+date1);	
+	var thn = date1.substring(0,4);
+	//alert("Tahun = "+thn);
+	var bln = date1.substring(5,7);	
+	if(bln.charAt(0)=="0"){
+		bln = ""+bln.charAt(1);
+	}
+	//alert("bln = "+bln);
+	var hri = date1.substring(8,10);
+	if(hri.charAt(0)=="0"){
+		hri = ""+hri.charAt(1);
+	}
+	//alert("hri = "+hri);
+	document.frmsrcpurchaserequest.<%=frmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_FROM_DATE] + "_mn"%>.value=bln;
+	document.frmsrcpurchaserequest.<%=frmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_FROM_DATE] + "_dy"%>.value=hri;
+	document.frmsrcpurchaserequest.<%=frmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_FROM_DATE] + "_yr"%>.value=thn;	
+	
+	
+	
+	var date2 = ""+document.frmsrcpurchaserequest.<%=FrmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_TO_DATE]%>.value;
+	//alert ("Date = "+date1);	
+	var thn2 = date2.substring(0,4);
+	//alert("Tahun = "+thn);
+	var bln2 = date2.substring(5,7);	
+	if(bln2.charAt(0)=="0"){
+		bln2 = ""+bln2.charAt(1);
+	}
+	//alert("bln = "+bln);
+	var hri2 = date2.substring(8,10);
+	if(hri2.charAt(0)=="0"){
+		hri2 = ""+hri2.charAt(1);
+	}
+	//alert("hri = "+hri);
+	document.frmsrcpurchaserequest.<%=FrmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_TO_DATE] + "_mn"%>.value=bln2;
+	document.frmsrcpurchaserequest.<%=FrmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_TO_DATE] + "_dy"%>.value=hri2;
+	document.frmsrcpurchaserequest.<%=FrmSrcPurchaseOrder.fieldNames[FrmSrcPurchaseOrder.FRM_FIELD_TO_DATE] + "_yr"%>.value=thn2;		
+	
+  }
+
+
+4.jalankan fuction getThn(), tempatkan function tersebut dibawah/setelah textbox tanggal, dan textbox hidden tujuannya agar java script tidak error karena text box harus diketahui dulu
+  Seperti berikut: <script language="JavaScript" type="text/JavaScript">getThn();</script> 
+
+
+5.tambahkan fuction java script untuk menghide combo yang menunpuk date picker ini harus diisi soalna diperlukan oleh calendar.js (meskipun isinya kosong):
+
+  function hideObjectForDate(){
+  }
+	
+  function showObjectForDate(){
+  }	    
+
+
+6.Tambahkan css untuk calender (calendar.css) ini bisa di include dari file css di luar jsp, (tambahkan di bagian edittable style pada templete) dengan perintah sbb:
+  <link rel="stylesheet" href="../../styles/calendar.css" type="text/css">
+
+7.Tambah java script untuk kalender(calendar.js) dan include file calendar.jsp di content paling atas.
+  seperti berikut:
+  <%@ include file = "../../../main/calendar.jsp" %>
+  <script language=JavaScript src="<%=approot%>/main/calendar.js"></script>

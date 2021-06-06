@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="PstReceiveAktiva.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstReceiveAktiva"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstReceiveAktiva"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstReceiveAktiva"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstReceiveAktiva"/>
+    </fileobject>
+    <fileobject name="PstReceiveAktivaItem.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstReceiveAktivaItem"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstReceiveAktivaItem"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstReceiveAktivaItem"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstReceiveAktivaItem"/>
+    </fileobject>
+    <fileobject name="PstSellingAktiva.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstSellingAktiva"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstSellingAktiva"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstSellingAktiva"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstSellingAktiva"/>
+    </fileobject>
+    <fileobject name="PstSellingAktivaItem.java">
+        <attr name="class_dependency_com.dimata.aiso.db.DBHandler" stringvalue="PstSellingAktivaItem"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBInterface" stringvalue="PstSellingAktivaItem"/>
+        <attr name="class_dependency_com.dimata.aiso.db.I_DBType" stringvalue="PstSellingAktivaItem"/>
+        <attr name="class_dependency_com.dimata.qdep.entity.I_PersintentExc" stringvalue="PstSellingAktivaItem"/>
+    </fileobject>
+    <fileobject name="SellingAktiva.java">
+        <attr name="class_dependency_com.dimata.qdep.entity.Entity" stringvalue="SellingAktiva"/>
+    </fileobject>
+</attributes>

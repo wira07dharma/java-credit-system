@@ -1,0 +1,48 @@
+/* CSS Document added by h3ndr@*/
+.ds_box {
+	background-color: #FF8080;/*#FFF;*/
+	border: 1px solid #7E9EE5;/*#000;*/
+	position: absolute;
+	z-index: 32767;
+}
+
+.ds_tbl {
+	background-color: #FFF;
+}
+
+.ds_head {
+	background-color: #7E9EE5;/*#333;*/
+	color: #000;/*#FFF;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.ds_subhead {
+	background-color: #B6CDFB;/*#CCC;*/
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 32px;
+}
+
+img.ds_cell {background: transparent;}
+
+.ds_cell {	
+	background-color: #F0F5FA;/*#EEE;*/
+	color: #000;
+	font-size: 13px;	
+	text-align: center;	
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.ds_cell:hover {
+	background-color: #F3F3F3;
+} /* This hover code won't work for IE */
+
