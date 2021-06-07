@@ -1,1 +1,0 @@
-C:\jdk1.3.1_01\bin\java.exe -classpath c:\javaclass\jdom.jar;c:\javaclass\xml.jar;c:\javaclass\postgresql.jar;c:\javaclass\xerces.jar;c:\javaclass\parser.jar; com.dimata.printman.RemotePrintMan

@@ -1,1 +1,0 @@
-C:\"Program Files"\j2sdk_nb\j2sdk1.4.2\bin\java.exe -classpath c:\javaclass\jdom.jar;c:\javaclass\xml.jar;c:\javaclass\postgresql.jar;c:\javaclass\xerces.jar;c:\javaclass\parser.jar; com.dimata.printman.stopPrnSvc
